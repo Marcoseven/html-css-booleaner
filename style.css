@@ -1,13 +1,13 @@
 body {
-	margin: 0;
-	font-size: 10px;
+	font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#first_row {
-	background-color: #99cbff;
+#first_row_table {
+	background-color: #47a1ff;
 	color: white;
+	text-align: left;
 }
 
-.row {
+.row_table {
 	background-color: lightblue;
 }
