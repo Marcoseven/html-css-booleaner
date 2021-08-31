@@ -3,3 +3,11 @@ body {
 	font-size: 10px;
 }
 
+#first_row {
+	background-color: #99cbff;
+	color: white;
+}
+
+.row {
+	background-color: lightblue;
+}
