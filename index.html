@@ -8,24 +8,32 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<header>
+		<!-- Inizio header -->
+		<header id="img" style="background-color: #47a1ff">
 			<img src="./img/pattern.png" alt="immagine figurativa" />
 			<img src="./img/logo.svg" alt="logo" />
 		</header>
 		<!-- /header -->
 
+		<!-- Inizio main -->
 		<main>
 			<h1>
 				Internet deve essere al servizio del "bene pubblico": il manifesto di
 				Tim Berners-Lee
 			</h1>
-			<div>Scritto da <strong>The Booleaner</strong></div>
+			<h3 style="color: grey">
+				Scritto da
+				<span style="color: #47a1ff">The Booleaner</span>
+			</h3>
 			<div>il 10/10/2020</div>
 			<br />
 			<br />
 
-			<img src="./img/tim-1.jpg" alt="Tim in an conference" />
-			<img src="./img/tim-2.jpg" alt="Tim Berners-Lee" />
+			<div>
+				<img src="./img/tim-1.jpg" alt="Tim in an conference" />
+				<img src="./img/tim-2.jpg" alt="Tim Berners-Lee" />
+			</div>
+
 			<div>
 				1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
 			</div>
@@ -36,9 +44,11 @@
 			<p>
 				Lorem ipsum dolor sit amet, cons ectetuer adipisicing elit, set diam
 				nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-				volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-				ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+				volutpat. Ut wisi enim ad minim veniam, quis nostrud
+				<span style="background-color: yellow"
+					>exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+					commodo consequat</span
+				>. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
 				molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
 				eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
 				zzril delenit augue duis dolore te feugait nulla facilisi.
@@ -61,16 +71,17 @@
 				</li>
 			</ul>
 
+			<!-- Inizio table -->
 			<table>
-				<thread>
-					<tr id="first_row">
-						<th>Lorem ipsum dolor</th>
-						<th>Lorem ipsum dolor</th>
-						<th>Lorem ipsum dolor</th>
+				<thead>
+					<tr id="first_row_table">
+						<th style="width: 20%">Lorem ipsum dolor</th>
+						<th style="width: 20%">Lorem ipsum dolor</th>
+						<th style="width: 60%">Lorem ipsum dolor</th>
 					</tr>
-				</thread>
+				</thead>
 				<tbody>
-					<tr class="row">
+					<tr class="row_table">
 						<td>Lorem ipsum dolor</td>
 						<td>Lorem ipsum dolor</td>
 						<td>
@@ -90,7 +101,7 @@
 							modi. Totam saepe quibusdam natus harum.
 						</td>
 					</tr>
-					<tr class="row">
+					<tr class="row_table">
 						<td>Lorem ipsum dolor</td>
 						<td>Lorem ipsum dolor</td>
 						<td>
@@ -110,15 +121,20 @@
 				volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
 				ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 				Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-				molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
-				eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
-				zzril delenit augue duis dolore te feugait nulla facilisi.
+				molestie consequat, vel
+				<span style="background-color: yellow"
+					>illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+					iusto</span
+				>
+				odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+				dolore te feugait nulla facilisi.
 			</p>
 		</main>
 		<!-- /main -->
 
+		<!-- Inizio footer -->
 		<footer>
-			<h2>Potrebbero interessarti</h2>
+			<h3 style="color: grey">Potrebbero interessarti</h3>
 			<img src="./img/monitor.jpg" alt="immagine con computer" /> <br />
 			<img src="./img/graph.jpg" alt="immagine con mappa grafica" />
 		</footer>
