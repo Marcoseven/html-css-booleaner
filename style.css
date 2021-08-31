@@ -2,6 +2,15 @@ body {
 	font-family: arial, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#img {
+	background-color: #47a1ff;
+	background-image: url(./img/pattern.png);
+}
+
+.logo {
+    width: 25%;
+}
+
 #first_row_table {
 	background-color: #47a1ff;
 	color: white;
